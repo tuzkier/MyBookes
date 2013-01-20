@@ -1,0 +1,64 @@
+$def with(title, category_list,has_param,books)
+$ category_name = None
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>$title</title>
+		<link href="/static/css/style.css" type="text/css" rel="stylesheet">
+		<link rel="SHORTCUT ICON" href="/static/image/favicon.ico"/>
+		<script type="text/javascript" src="/static/js/jquery-1.8.1.js"></script>
+		<script type="text/javascript" src="/static/js/base.js"></script>
+		<script type="text/javascript" src="/static/js/book.js"></script>
+	</head>
+	<body>
+		<div id="navbar" class="navbar pos-fixed pos-top">
+			<div class="nav-container">
+				<a href="/" class="logo-text">小书库</a>
+				<!--<div class="nav">
+					<ul></ul>
+				</div>-->
+				<div class="search">
+					 <input type="input" name="fiter" placeholder="书名、作者"/>
+					 <button type="button" class="search-button withbg"></button>
+				</div>
+			</div>
+		</div>
+		<div id="container">
+			<div class="caption">
+				<h4>下载、购买想要的书！</h4>
+			</div>
+			<div class="category pos-absolute">
+				<div class="category-container">
+					<ul class="category-list">
+					$for category in category_list:
+						$if has_param:
+							<li class="category-item $category['class_name']">
+							$if category['class_name'] != "":
+								$ category_name = category["name"]
+						$else:
+							<li class="category-item">
+						<a href="/?name=$category["name"]">$category["name"]</a></li>
+					</ul>
+					</div>
+			</div>
+			<div id="book-list">
+					<div class="category-books">
+					<h3 class="category-title">$category_name</h3>
+					<ul>
+						$for book in books:
+							<li><a href=""><div class="book-item"><img src="$book['book_info']['image'].replace('\/','/')"><p class="book-title">$book['book_info']['title']</p></div></a></li>
+					</ul>
+					</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="footer-container suspended">
+				<div class="about-links">
+					<a href=""></a>
+				</div>
+				<div id="copyright">copyright</div>
+			</div>
+		</div>
+	</body>
+</html>
