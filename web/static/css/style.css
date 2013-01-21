@@ -49,6 +49,7 @@ input:focus
 	border-bottom:1px solid #ccc;
 	height:40px;
 	width:100%;
+	z-index:1099;
 }
 .pos-fixed
 {

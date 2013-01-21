@@ -21,6 +21,8 @@ class book_controler():
             result_list.append(cur)
         return result_list
 
+    def book_detail(self, book_id):
+        return self.book_data_obj.get_book_detail(book_id)
 
 class book_timer():
 

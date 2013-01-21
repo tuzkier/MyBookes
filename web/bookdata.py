@@ -46,6 +46,15 @@ class data_handler():
         except:
             print "Set top book fail"
 
+
+
+    def get_book_detail(self, book_id):
+        try:
+            return self.mybook.douban_book.find_one({"book_id": book_id})
+        except:
+            return "exception"
+
+
     def insert_top_book(self, books):
         db = self.conn.mybook
         db.top_book.insert(books)

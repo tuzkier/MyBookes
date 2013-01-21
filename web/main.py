@@ -3,7 +3,9 @@
 import web
 from controler import book_timer
 urls = (
+    '/detail/(.+)',"view.book_detail",
     '/','view.index'
+
 )
 
 if __name__ == "__main__":

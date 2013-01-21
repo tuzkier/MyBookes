@@ -37,6 +37,16 @@ class index:
         books = book.get_books_with_category(param.get_category_name())
         return render.index_category(title,category_list, has_param, books)
 
+class book_detail:
+    book = book_controler()
+    def GET(self, name):
+        detail = self.book.book_detail(name)
+        result = ""
+        for d in detail:
+            result += str(detail[d]) + "\n"
+        return "<html><head><meta http-equiv='Content-Type' content='text/html; charset=utf-8'></head><body>" + result + "</body></html>"
+
+
 class favicon:
     def GET(self):
         return web.seeother('static/image/favicon.ico')
