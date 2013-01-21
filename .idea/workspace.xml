@@ -32,10 +32,8 @@
       <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#16#26#0" expanded="true" />
-              </folding>
+            <state line="6" column="36" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -49,21 +47,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="view.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/view.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="44" selection-start="1068" selection-end="1091" vertical-scroll-proportion="-11.4">
-              <folding>
-                <element signature="e#22#32#0" expanded="true" />
-              </folding>
+            <state line="40" column="80" selection-start="1256" selection-end="1256" vertical-scroll-proportion="0.85393256">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controler.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="controler.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/controler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="32" selection-start="580" selection-end="580" vertical-scroll-proportion="0.47016013">
+            <state line="15" column="57" selection-start="421" selection-end="444" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#17#51#0" expanded="true" />
               </folding>
@@ -74,10 +70,8 @@
       <file leaf-file-name="bookdata.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/bookdata.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="31" selection-start="347" selection-end="370" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#17#48#0" expanded="true" />
-              </folding>
+            <state line="34" column="5" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -132,18 +126,18 @@
         <option value="D:/Python27/Lib/site-packages/web/net.py" />
         <option value="$PROJECT_DIR$/web_spider.py" />
         <option value="$PROJECT_DIR$/web/data.py" />
-        <option value="$PROJECT_DIR$/web/main.py" />
         <option value="$PROJECT_DIR$/web/bookdata.py" />
         <option value="$PROJECT_DIR$/web/controler.py" />
+        <option value="$PROJECT_DIR$/web/main.py" />
         <option value="$PROJECT_DIR$/web/view.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1358" />
-    <option name="y" value="760" />
-    <option name="width" value="1456" />
-    <option name="height" value="876" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -211,12 +205,12 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="preferences.editor" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -373,14 +367,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="760" width="1456" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16427547" sideWeight="0.49228612" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16666667" sideWeight="0.49228612" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5077139" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874355" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -525,37 +519,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#16#26#0" expanded="true" />
-          </folding>
+        <state line="6" column="36" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/bookdata.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="31" selection-start="347" selection-end="370" vertical-scroll-proportion="0.0">
+        <state line="34" column="5" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/controler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="57" selection-start="421" selection-end="444" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#17#48#0" expanded="true" />
+            <element signature="e#17#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/view.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="44" selection-start="1068" selection-end="1091" vertical-scroll-proportion="-11.4">
-          <folding>
-            <element signature="e#22#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/controler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="32" selection-start="580" selection-end="580" vertical-scroll-proportion="0.47016013">
-          <folding>
-            <element signature="e#17#51#0" expanded="true" />
-          </folding>
+        <state line="40" column="80" selection-start="1256" selection-end="1256" vertical-scroll-proportion="0.85393256">
+          <folding />
         </state>
       </provider>
     </entry>

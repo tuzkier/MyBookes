@@ -49,6 +49,7 @@ input:focus
 	border-bottom:1px solid #ccc;
 	height:40px;
 	width:100%;
+	z-index:1030;
 }
 .pos-fixed
 {
@@ -187,7 +188,22 @@ input:focus
 	margin-left:160px;
 
 }
-#book-list .category-books
+#book-list .book-tags
+{
+	font-size:13px;
+}
+#book-list .book-tags a
+{
+	white-space: nowrap;
+	margin-right:5px;
+	margin-bottom:2px;
+	color:#888;
+}
+#book-list .book-tags a:hover
+{
+	color:#01A7E5;
+}
+#book-list .book-tags,#book-list .category-books
 {
 	margin:20px 40px 20px 30px
 }
@@ -207,8 +223,13 @@ input:focus
 	float: left;
 	font-size: 12px;
 	text-align: center;
-	margin:8px;
+	margin:8px 14px;
+	border:1px solid #ccc;
 
+}
+#book-list .book-item img{
+	width:105px;
+	height: 150px;
 }
 #book-list .book-item p
 {

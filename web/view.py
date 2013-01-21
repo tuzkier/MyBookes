@@ -28,14 +28,21 @@ class index:
         title = "小书库"
         category_name = params["name"]
         category_list = book.get_categories()
+        tags = None
         for cate in category_list:
             if cate["name"] == category_name:
                 cate["class_name"] = "category-selected"
+                tags = cate["tags"]
             else:
                 cate["class_name"] = ""
         has_param = True
         books = book.get_books_with_category(param.get_category_name())
-        return render.index_category(title,category_list, has_param, books)
+
+        return render.index_category(title,category_list, has_param, books, tags)
+
+class book_detail:
+    def GET(self,name):
+        return name
 
 class favicon:
     def GET(self):
