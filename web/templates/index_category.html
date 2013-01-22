@@ -47,7 +47,7 @@ $ category_name = None
 					<h3 class="category-title">$category_name</h3>
 					<ul>
 						$for book in books:
-							<li><a href="/detail/$book['book_id']"><div class="book-item"><img src="$book['book_info']['image'].replace('\/','/')"><p class="book-title">$book['book_info']['title']</p></div></a></li>
+							<li><a href="/detail/$book['book_id']"><div class="book-item"><img src="$book['image']"><p class="book-title">$book['title']</p></div></a></li>
 					</ul>
 					</div>
 			</div>
