@@ -50,7 +50,7 @@
       <file leaf-file-name="view.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/view.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="80" selection-start="1256" selection-end="1256" vertical-scroll-proportion="0.85393256">
+            <state line="52" column="30" selection-start="1466" selection-end="1466" vertical-scroll-proportion="1.5486891">
               <folding />
             </state>
           </provider>
@@ -60,9 +60,7 @@
         <entry file="file://$PROJECT_DIR$/web/controler.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="15" column="57" selection-start="421" selection-end="444" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#17#51#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -205,12 +203,12 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="recentsLimit" value="5" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="options.searchVisible" value="true" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -374,7 +372,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16666667" sideWeight="0.49228612" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1689394" sideWeight="0.49228612" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5077139" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874355" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -534,15 +532,13 @@
     <entry file="file://$PROJECT_DIR$/web/controler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="57" selection-start="421" selection-end="444" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#17#51#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/view.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="80" selection-start="1256" selection-end="1256" vertical-scroll-proportion="0.85393256">
+        <state line="52" column="30" selection-start="1466" selection-end="1466" vertical-scroll-proportion="1.5486891">
           <folding />
         </state>
       </provider>
