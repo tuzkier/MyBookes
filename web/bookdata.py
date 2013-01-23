@@ -4,7 +4,7 @@ from pymongo import MongoClient
 import random
 
 class data_handler():
-    conn  = MongoClient("127.0.0.1", 5566)
+    conn  = MongoClient("127.0.0.1", 27017)
     mybook = conn.mybook
     def __init__(self):
         pass

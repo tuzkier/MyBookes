@@ -6,7 +6,7 @@ import sys
 
 
 def set_book_info():
-    conn = MongoClient("127.0.0.1",5566)
+    conn = MongoClient("127.0.0.1",27017)
     mybook = conn.mybook
     books = mybook.douban_book.find()
     count = 0
