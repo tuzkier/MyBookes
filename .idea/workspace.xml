@@ -29,10 +29,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="36" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
+            <state line="10" column="8" selection-start="167" selection-end="167" vertical-scroll-proportion="0.32022473">
               <folding />
             </state>
           </provider>
@@ -41,7 +41,7 @@
       <file leaf-file-name="view.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/view.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="30" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.0">
+            <state line="63" column="30" selection-start="1843" selection-end="1843" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -59,16 +59,16 @@
       <file leaf-file-name="controler.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/controler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="57" selection-start="421" selection-end="444" vertical-scroll-proportion="0.0">
+            <state line="17" column="34" selection-start="421" selection-end="444" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bookdata.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="bookdata.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/bookdata.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="42" selection-start="128" selection-end="128" vertical-scroll-proportion="0.17790262">
+            <state line="6" column="43" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -125,10 +125,10 @@
         <option value="$PROJECT_DIR$/web_spider.py" />
         <option value="$PROJECT_DIR$/web/data.py" />
         <option value="$PROJECT_DIR$/web/controler.py" />
-        <option value="$PROJECT_DIR$/web/main.py" />
         <option value="$PROJECT_DIR$/web/view.py" />
         <option value="$PROJECT_DIR$/data_manager.py" />
         <option value="$PROJECT_DIR$/web/bookdata.py" />
+        <option value="$PROJECT_DIR$/web/main.py" />
       </list>
     </option>
   </component>
@@ -210,14 +210,6 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-  </component>
-  <component name="PyConsoleOptionsProvider">
-    <option name="myPythonConsoleState">
-      <PyConsoleSettings />
-    </option>
-    <option name="myDjangoConsoleState">
-      <PyConsoleSettings />
-    </option>
   </component>
   <component name="RunManager" selected="Python.main">
     <configuration default="false" name="web_spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -339,24 +331,6 @@
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="DETECT_NESTED_COPIES" value="true" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="0d92eb1b-583a-41a6-8251-d109cf90395f" name="Default" comment="" />
@@ -366,7 +340,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -502,23 +476,16 @@
         <state line="137" column="15" selection-start="5475" selection-end="5475" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="36" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/controler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="57" selection-start="421" selection-end="444" vertical-scroll-proportion="0.0">
+        <state line="17" column="34" selection-start="421" selection-end="444" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/view.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="30" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.0">
+        <state line="63" column="30" selection-start="1843" selection-end="1843" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -539,7 +506,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/bookdata.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="42" selection-start="128" selection-end="128" vertical-scroll-proportion="0.17790262">
+        <state line="6" column="43" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="8" selection-start="167" selection-end="167" vertical-scroll-proportion="0.32022473">
           <folding />
         </state>
       </provider>

@@ -44,6 +44,16 @@ class book_detail:
     def GET(self,name):
         return name
 
+class book_detail:
+    book = book_controler()
+    def GET(self, name):
+        detail = self.book.book_detail(name)
+        result = ""
+        for d in detail:
+            result += str(detail[d]) + "\n"
+        return "<html><head><meta http-equiv='Content-Type' content='text/html; charset=utf-8'></head><body>" + result + "</body></html>"
+
+
 class favicon:
     def GET(self):
         return web.seeother('static/image/favicon.ico')
